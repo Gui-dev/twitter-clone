@@ -1,0 +1,22 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon",
+    "pro": "pm2 start src/index.js --name twitter-clone",
+    "stop": "pm2 stop all"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "esm": "^3.2.22",
+    "express": "^4.16.4",
+    "mongoose": "^5.4.22",
+    "pm2": "^3.4.1",
+    "socket.io": "^2.2.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.16.1"
+  }
+}
