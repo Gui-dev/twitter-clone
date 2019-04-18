@@ -4,7 +4,7 @@
   "main": "src/index.js",
   "license": "MIT",
   "scripts": {
-    "start": "nodemon",
+    "start": "node src/index.js",
     "pro": "pm2 start src/index.js --name twitter-clone",
     "stop": "pm2 stop all"
   },
